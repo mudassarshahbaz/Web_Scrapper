@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="wwwroot\css\StyleSheet.css" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="HtmlAgilityPack" Version="1.11.46" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\CodingTask.Application\CodingTask.Application.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="Resource\extraction_booking.html">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+
+</Project>

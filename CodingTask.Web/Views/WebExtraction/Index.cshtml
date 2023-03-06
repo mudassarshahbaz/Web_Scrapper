@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Task 1: Web Extraction";
+}
+
+<link href="~/css/StyleSheet.css" rel="stylesheet" />
+<div class="container text-center">
+    <form method="post">
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <button asp-controller="WebExtraction" asp-action="DownloadExtractionFile" class="btn btn-primary">
+                Extract Scrapped Data
+            </button>
+        </div>
+    </form>
+</div>
