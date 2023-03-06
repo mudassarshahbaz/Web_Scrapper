@@ -2,14 +2,15 @@
 
 data extractor that reads out content from extraction.booking.html and extracts the below listed information.
 
-Hotel name (red)
-Address (red)
-Classification / stars (red)
-Review points (pink)
-Number of reviews (pink)
-Description (blue)
-Room categories (green)
-Alternative hotels (yellow)
+●	Hotel name (red)
+●	Address (red)
+●	Classification / stars (red)
+●	Review points (pink)
+●	Number of reviews (pink)
+●	Description (blue)
+●	Room categories (green)
+●	Alternative hotels (yellow)
+
 
 Input
 String, stream or file with html content taken from extraction.booking.html.
